@@ -16,6 +16,11 @@ header {
     background-size: cover;
 }
 
+.header_signin {
+    background-image: url(./images/signin_image.png);
+    background-size: cover;
+}
+
 .nav {
     background-color: #000000;
     height: 60px;
@@ -47,6 +52,7 @@ nav ul li {
 .logo {
     width: 150px;
     height: 40px;
+    
 }
 
 .face_icon {
@@ -60,7 +66,7 @@ nav ul li {
     text-align: center;
     font-size: 12px;
     padding: 10px 20px;
-    /* font-size: bold; */
+    border: #808080 solid;
 }
 
 .lang_btn:hover {
@@ -102,9 +108,13 @@ nav ul li {
     color: #ffffff;
 }
 
-/* .featured .stop_btn {
-    color: #ffffff !important;
-} */
+.get_started {
+    background-color: #e50914;
+    border: none;
+    padding: 10px 10px;
+    color: #f0f8ff;
+    font-size: 15px;
+}
 
 
 h1 {
@@ -171,6 +181,7 @@ h2 {
 
 .subscribe {    
     padding: 75px 60px;
+    
 }
 
 .subscribe h1 {
@@ -185,7 +196,9 @@ h2 {
 
 .subscribe form {
     text-align: center;
+    
 }
+
 
 .container {
     background-color: #000000;
@@ -195,6 +208,9 @@ h2 {
     border-color: #333333;
 }
 
+.bg_black {
+background: #000000;
+}
 .box {
     display: flex;
     flex-direction: row;
@@ -346,6 +362,34 @@ width: 120px;
     border-width: 2px;
     width: 220px;
 }
+
+
+.signin {
+    display: flex;
+    justify-content: center;
+    padding: 75px 60px;
+}
+
+.signin span {
+    width: 320px;
+    background-color: #000000;
+    /* opacity: 0.5; */
+    padding: 30px 40px;
+}
+
+.signin_form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.signin_form ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+
 
 
 /* Home page */
